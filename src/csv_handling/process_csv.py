@@ -6,5 +6,5 @@ def load_csv(file_name: str) -> pd.DataFrame:
 def join_dataframes(timeseries_df: pd.DataFrame, datapoints_df: pd.DataFrame) -> pd.DataFrame:
     raise NotImplementedError("join_dataframes not implemented yet")   
 
-def write_csv(file_name: str, df: pd.DataFrame) -> pd.DataFrame:
+def write_csv(file_name: str, df: pd.DataFrame) -> None:
     raise NotImplementedError("write_csv not implemented yet")   
